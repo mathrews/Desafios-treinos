@@ -8,11 +8,11 @@
 }
 body{
     background-color: #D6E1F0;
+    margin-top: 5%;
 }
 /* CONTAINER PRINCIPAL */
 .container-A{
     flex-wrap: wrap;
-    display: block;
     width: 350px;
     height: 450px;
     margin: 0 auto;
@@ -20,7 +20,27 @@ body{
     background-color: #ffffff;
 }
 /* ELEMENTOS DO CONTAINER */
+.imagem{
+    padding: 16px;
+}
 img{
     width: 100%;
     height: 40%;
+    border-radius: 10px;
+}
+/* CONTEUDO DE TEXTO */
+.text{
+    width: 326px;
+    height: 200px;
+    margin-left: 2%;
+    font-family: 'Heebo', sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+h3{
+    padding-top: 12px;
+}
+p{
+    padding-top: 16px;
+    color: #4B4F52;
 }
