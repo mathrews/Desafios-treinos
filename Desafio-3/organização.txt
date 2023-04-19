@@ -1,3 +1,17 @@
 14hrs:estudar programação
 15hrs: programação
 16:30: ensaiar as musga
+-
+Cap 08 aula 01 M01: Gustavo Guanabara
+
+assunto: semantica na HTML5
+
+> o que é semantica: "valor de significado maior do que o de forma"
+
+exp: h1=título de nível 1
+
+>A melhoria de semântica do HTML4 para o HTML5 foi gigantesca, pois era muito simples.
+
+>ter cuidado com as tags obsoletas, pois o significado pode ser o mesmo, porém a forma muda. Sites oficiais: W3C
+
+>HTML5 = semantica; CSS = forma
