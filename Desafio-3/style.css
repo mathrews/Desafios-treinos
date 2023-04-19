@@ -52,10 +52,6 @@ body{
     border: 2px solid #AFB4B8;
 }
 
-.label-check{
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 #intro{
     color: #AFB4B8;
@@ -78,6 +74,11 @@ body{
 
 #checkbox > .esqueci{
     color: #ffc632;
+}
+
+.label-check{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .botao{
