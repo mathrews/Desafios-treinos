@@ -95,6 +95,17 @@ body{
     border: 1px solid #ffc632;
 }
 
+#checkbox input#checkbox:checked:after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(checkmark.jpg);
+    width: 10px;
+    height: 10px;
+    transition: all 0.s ease-in-out;
+}
+
 #checkbox label{
     padding-left: 6px;
     padding-top: 2px;
