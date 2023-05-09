@@ -11,9 +11,11 @@
 /* ---------------------FOOTER----------------- */
 footer{
     display: flex;
-    padding: 60px 120px;
+    padding: 60px 560px;
     flex-wrap: wrap;
     gap: 50px;
+    background-image: linear-gradient(90deg, #000000, #002e2d);
+    border-top: 4px solid var(--title-color);
 }
 
 footer > div{
@@ -22,12 +24,114 @@ footer > div{
 /* --------------------------LOGO--------------------- */
 #logo h2{
     font-size: 44px;
+    color: var(--title-color);
 }
 
 #logo p{
     font-size: 12px;
     padding-top: 16px;
     font-weight: bold;
+    color: var(--default-color);
+}
+/* ---------------------------fast-acs----------------- */
+#fast-acs h5{
+    color: var(--floreio-color);
+    font-size: 14px;
+}
+
+#fast-acs li{
+    margin-top: 6px;
+}
+
+#fast-acs li a{
+    color: var(--default-color);
+    display: block;
+    transition-duration: 300ms;
+    position: relative;
+    border-radius: 6px;
+}
+
+#fast-acs li a:hover{
+    background-color: #FFFFFF40;
+    transform: translateX(2%);
+    padding-left: 4px;
+}
+/* ---------------------------COMUNICAÇÕES------------ */
+#comunicações h5{
+    font-size: 14px;
+    color: var(--floreio-color);
+    text-align: center;
+}
+
+#comunicações a{
+    font-size: 16px;
+    text-align: center;
+}
+
+#comunicações .zap{
+    margin-top: 6px;
+}
+
+#comunicações .zap p{
+    margin-top: 4px;
+    color: var(--default-color);
+    transition-duration: 200ms;
+    border-radius: 6px;
+}
+
+#comunicações .zap p:hover{
+    background-color: #FFFFFF40;
+    font-size: 18px;
+}
+
+#comunicações .tel{
+    margin-top: 16px;
+}
+
+#comunicações .tel p{
+    margin-top: 4px;
+    color: var(--default-color);
+    border-radius: 6px;
+    transition-duration: 200ms;
+}
+
+#comunicações .tel p:hover{
+    background-color: #FFFFFF40;
+    font-size: 18px;
+}
+
+#comunicações .social{
+    margin-top: 26px;
+}
+
+#comunicações .social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#comunicações .social ul li{
+    margin-top: 22px;
+}
+
+#comunicações .social ul li a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    color: var(--default-color);
+    border-radius: 4px;
+    position: relative;
+    transition-duration: 200ms;
+    transform-origin: right;
+}
+
+#comunicações .social ul li a:hover{
+    background-image: linear-gradient(90deg, #cbf704b7, #8fff17a6);
+    font-size: 32px;
 }
 /* -----------------------COPY--------------------- */
 .copy{
