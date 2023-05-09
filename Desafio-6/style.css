@@ -23,9 +23,11 @@ footer > div{
 #logo h2{
     font-size: 44px;
 }
+
 #logo p{
     font-size: 12px;
     padding-top: 16px;
+    font-weight: bold;
 }
 /* -----------------------COPY--------------------- */
 .copy{
